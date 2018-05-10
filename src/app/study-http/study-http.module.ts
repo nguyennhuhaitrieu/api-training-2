@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
-
+import { CommonModule } from '@angular/common';
 
 // Component
 import { CourseListComponent } from "./components/course-list.component";
@@ -16,7 +16,8 @@ import { StudyHttpRoutingModule } from './study-http-routing.module';
 @NgModule({
 	imports: [
 		StudyHttpRoutingModule,
-		HttpModule
+    HttpModule,
+    CommonModule
 	],
 	declarations: [
 		CourseListComponent,
