@@ -13,7 +13,6 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     StudyHttpModule,
     AppRoutingModule,
-    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
